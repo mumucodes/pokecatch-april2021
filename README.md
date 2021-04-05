@@ -34,6 +34,17 @@ input:checked + img {
 ### State
 - encounters, caught for each pokemon
     - `const pokedex = []`
+
+```js
+interface PokeItem {
+    name: string,
+    captured: number,
+    encountered: number
+}
+
+type Pokedex = Array<PokeItem>
+```
+
 - `let captures = 0`
 
 ### Events
@@ -60,6 +71,11 @@ input:checked + img {
             - if not, `{ pokemon: 'ekans', captured: 0, encountered: 1 }`
             - if so, increment the encountered property
     - we'll put them in the DOM
+
+- local storage utils
+    - getPokedex
+    - encounterPokemon
+    - capturePokemon
 
 ```js
 while (anyOfOurNumbersAreRepeats) {
