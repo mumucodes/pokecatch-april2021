@@ -111,3 +111,14 @@ footer {
     }
 
   }
+
+  img {
+      width: 120px;
+  }
+
+  button {
+      border-radius: 50%;
+      height: 100px;
+      width: 100px;
+      background-color: red;
+  }

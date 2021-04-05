@@ -37,7 +37,7 @@ input:checked + img {
 
 ```js
 interface PokeItem {
-    name: string,
+    id: string,
     captured: number,
     encountered: number
 }
