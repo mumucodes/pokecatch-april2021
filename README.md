@@ -59,6 +59,7 @@ type Pokedex = Array<PokeItem>
 - onLoad
     - generateThreePokemon
 
+
 ### Functions
 - generateThreePokemon
     - start with raw array of pokemon data
@@ -72,16 +73,17 @@ type Pokedex = Array<PokeItem>
             - if so, increment the encountered property
     - we'll put them in the DOM
 
-- local storage utils
-    - getPokedex
-    - encounterPokemon
-    - capturePokemon
-
 ```js
 while (anyOfOurNumbersAreRepeats) {
     generateThreeNewNumbers()
 }
 ```
+
+- local storage utils
+    - getPokedex
+    - encounterPokemon
+    - capturePokemon
+
 
 - capturePokemon(selectedPokemon)
     1) we need to grab our pokedex from localStorage
